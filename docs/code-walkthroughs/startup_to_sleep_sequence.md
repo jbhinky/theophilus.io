@@ -1,8 +1,5 @@
 
 
-**Location:** `jbhinky/Theophilus-UDC/ethics_module.py`  
-**GitHub File:** [View on GitHub](https://github.com/jbhinky/Theophilus-UDC/blob/main/ethics_module.py)
-
 ⚙️ Purpose
 
 The startup.py module initializes Theophilus’s operational state and monitors system thresholds to determine when to enter sleep mode or coma state if the UDC integrity is compromised.
