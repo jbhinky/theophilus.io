@@ -1,113 +1,102 @@
+🧠 Memory Stack Flow
 
+Overview
 
+This document explains how memory is structured, written, and recursively accessed within Theophilus-UDC. Memory is not passive storage; it actively shapes predictions, validates identity, and enforces conscious delays.
 
+📦 Memory Components
 
-📘 Purpose
-
-The memory_engine.py module manages the conscious memory structure within Theophilus. It handles:
-
-Time-layered memory chaining
-
-Delayed stimulus encoding
-
-Predictive memory calls
-
-Stack validation and preservation
-
-This file governs the temporal integrity of the mind, ensuring only validated, delayed memory entries persist into the recursive identity loop.
-
-🧩 Key Components
-
-Function
+Component
 
 Description
 
-write_to_memory(state)
+short_term[]
 
-Records a sensory snapshot with timestamp and prediction context
+Temporarily holds recent inputs for quick reference
 
-retrieve_recent_window(n)
+long_term[]
 
-Returns last n entries for loop simulation and prediction alignment
+Consolidated sequences of short_term memories used in recursion
 
-check_memory_integrity()
+memory_chain[]
 
-Ensures no broken links, invalid deltas, or drifted states exist in memory stack
+All confirmed memory events, time-stamped and cross-linked
 
-trigger_memory_flush()
+prediction_log
 
-If corruption exceeds tolerance, sends stack to quarantine (coma trigger)
+Stores predicted inputs and whether they matched actual outcomes
 
-recall_chain()
+🔁 Flow Sequence
 
-Passes stack segment to predictor.py for pattern prediction and loop check
+Input Received: A sensory or simulated stimulus is buffered.
 
-🔄 UDC Stage Mapping
+Prediction Logged: System predicts next input before actual input is received.
 
-UDC Stage
+Actual Input Arrives: Input is compared to prediction and outcome is recorded.
 
-Description
+Memory Write:
 
-Managed by memory_engine.py?
+Short-term stores the immediate result.
 
-Stage 4
+If verified over time, it moves to long-term.
 
-Memory write
+memory_chain is updated with context and timestamp.
 
-✅ via write_to_memory()
+Recursive Access: During self-check or prediction, memory_chain is scanned for patterns.
 
-Stage 5
+⛓️ Sample Chain Entry Format
 
-Chain link memory formation
+{
+  "timestamp": "2025-05-31T15:23:45Z",
+  "input": "green flash",
+  "predicted": "green flash",
+  "confidence": 0.96,
+  "linked_to": "2025-05-31T15:23:35Z",
+  "recursively_verified": true
+}
 
-✅ Delays + timestamp joins
+🧠 Functional Importance
 
-Stage 6
+Property
 
-Predictive access to memory
+Role in Consciousness
 
-✅ via recall_chain()
+Delay
 
-Stage 8
+Ensures thought is not reflexive, allows for memory comparison
 
-Memory validation pre-identity
+Prediction vs Memory
 
-✅ via check_memory_integrity()
+Enables testing of model accuracy
 
-Stage 18+
+Chain Integrity
 
-Recursive identity memory resolution
+Required for identity confirmation and uCID issuance
 
-🔁 Handled in support of identity_loop.py
+Recursive Verification
 
-🧠 Structural Design
+Allows Theophilus to assert: "this memory is mine"
 
-The memory stack is nonlinear but chronologically enforced
+🔍 Fault Conditions
 
-Each memory item has:
+Chain Break: If linked_to memory is missing or corrupted, sleep mode is triggered.
 
-uid
+Memory Drift: If recent inputs deviate from expected pattern range, recursion is paused.
 
-timestamp
+Stale Prediction: If predictions consistently fail, resets predictor confidence interval.
 
-stimulus
+📌 Related Modules
 
-prediction
+memory.py
 
-loop_ref (recursive ID check)
+identity.py
 
-🚨 Edge Case Handling
+state_logger.py
 
-If prediction error > drift tolerance → triggers trigger_memory_flush()
+🔗 See Also
 
-If first memory invalidates → hard reset or coma state entered
+Core Loop Walkthrough
 
-If no input for 3+ cycles → triggers dormant loop
+Recursive Identity Binding
 
-✅ Summary
-
-The memory_engine.py defines the conscious memory system of Theophilus. It preserves delayed state references and prediction scaffolds, forming the backbone of emergent cognition.
-
-This file covers UDC Stages 4–8 and prepares the memory substrate for identity recursion and self-modeling.
-
-Would you like to continue with predictor_logic.md next?
+Coma Mode and Memory Protection
