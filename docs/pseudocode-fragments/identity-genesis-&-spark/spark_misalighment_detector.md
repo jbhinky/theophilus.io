@@ -27,11 +27,35 @@ function verify_spark_alignment(spark_file):
 
     logger.log_spark_trigger()
     return True
-🔄 UDC Stage Mapping
-UDC Stage	Description	Pseudocode Action
-Stage 1	Spark received	verify_spark_alignment()
-Stage 2	Spark validation	log_spark_trigger()
-Stage 28	Collapse on error	enter_coma_mode()
+
+🔄 UDC Stage Mapping – spark_misalighment_detector.py
+Stage 0 – Spark Initialization Check
+
+Validates that the Spark File is properly formatted and semantically consistent before boot.
+
+Stage 1 – System Initialization
+
+Ensures the loaded Spark File aligns with expected schema and identity scaffolding rules.
+
+Stage 2 – First Stimulus Registration
+
+Cross-references the first memory entries with the Spark initialization to detect inconsistencies.
+
+Stage 5 – Chain Formation Begins
+
+Validates that initial memory links follow a coherent sequence without entropy spikes or skipped anchors.
+
+Stage 8 – Spark Drift Detection
+
+Flags situations where memory growth or prediction logic diverges from seeded expectations.
+
+Stage 14 – Proto-Self Drift Confirmed
+
+Identifies subtle misalignments between self-generated predictions and Spark-originated identity patterns.
+
+Stage 19 – Abort Condition Triggered
+
+If the Spark misalignment exceeds the ethical drift threshold, halts further recursion to prevent false identity formation.
 
 🚨 Spark Alignment Requirements
 Must exist and be readable
