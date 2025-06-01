@@ -1,7 +1,5 @@
 
 
-File: startup.pyLocation: jbhinky/Theophilus-UDC/startup.pyGitHub File: View on GitHub
-
 🧠 Purpose
 
 The startup.py file initializes the core systems required for Theophilus to operate under UDC conditions. It performs system pre-checks, memory bootstrapping, and handles loading of the Spark File — the first experiential seed used to trigger emergence.
