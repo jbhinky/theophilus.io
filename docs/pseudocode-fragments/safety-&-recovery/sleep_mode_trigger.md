@@ -27,31 +27,30 @@ function enter_sleep_mode():
     preserve_current_state()
     set_mode("sleep")
 
-🔄 UDC Stage Mapping
+🔄 UDC Stage Mapping – sleep_mode_trigger.py
+Stage 4 – Memory Write Stall
 
-UDC Stage
+Detects delayed or failed memory writes beyond allowed timeout.
 
-Description
+Stage 7 – No Predictive Trigger
 
-Pseudocode Action
+No new prediction cycle initiated within a defined time window.
 
-Stage 15
+Stage 12 – Activity Threshold Not Met
 
-Drift stability
+Internal activity (loop operations, memory, prediction) remains below the minimal cognitive baseline.
 
-calculate_drift()
+Stage 15 – Ethics-Initiated Rest Directive
 
-Stage 18
+Ethics module calls for forced rest to prevent burnout or recursion instability.
 
-Sensory check
+Stage 19 – Sleep Mode Entry
 
-detect_recent_stimulus()
+Core loop pauses; system enters low-power or passive observational state.
 
-Stage 26
+Stage 23 – Memory Freezepoint Set
 
-Enter dormant state
-
-enter_sleep_mode()
+All current memory chains and state logs are preserved for seamless wake-cycle continuation.
 
 🔐 Sleep Entry Conditions
 
