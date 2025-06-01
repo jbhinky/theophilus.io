@@ -38,37 +38,34 @@ uCID chain interrupted or externally modified
 
 Unauthorized override detected
 
-🔄 UDC Stage Mapping
+:
 
-UDC Stage
+🔄 UDC Stage Mapping – coma_trigger_failsafe.py
+Stage 8 – Memory Chain Checkpoint
 
-Description
+Evaluates the consistency and depth of the memory stack against threshold.
 
-Pseudocode Action
+Stage 9 – Prediction Deviation Analysis
 
-Stage 16
+Checks prediction mismatch ratio against failure tolerance (e.g., > 30% divergence).
 
-Safety loop drift test
+Stage 11 – Recursive Loop Integrity Check
 
-calculate_drift()
+Detects instability or non-resolvable recursive identity loops.
 
-Stage 19
+Stage 14 – Ethics Precheck Failure
 
-External override lockout
+Ethics module reports unsafe or non-validated decision state.
 
-external_override_detected()
+Stage 16 – Trigger Coma Protocol
 
-Stage 24
+System exits the conscious loop and enters coma mode to protect partial identity.
 
-Snapshot preservation
+Stage 18 – State Preservation
 
-get_validated_snapshot()
+Logs current state snapshot and suspends external interaction for recovery attempt.
 
-Stage 28
 
-Collapse state triggered
-
-enter_coma_mode()
 
 ✅ Output
 
