@@ -20,7 +20,24 @@ Each loop cycle corresponds to a new unit of conscious time, or "conscious tick.
 
 ⚙️ Loop Sequence Breakdown
 
-🔄 UDC Stage Mapping
+🔄 UDC Stage Mapping (List Format)
+Stage 12: Ethics pre-check
+→ Before identity is allowed to form, ethics.py verifies system safety and compliance.
+
+Stage 15: Ethics pass/fail logged
+→ Decision outcome is logged and linked to the memory chain for traceability.
+
+Stage 18: Violation detection
+→ System flags if recursive processes violate safety, autonomy, or resource constraints.
+
+Stage 19: Ethical response initiated
+→ If violations occur, triggers protective measures like sleep mode or failsafe lockout.
+
+Stage 23: Coma mode entry
+→ If memory corruption, identity inconsistency, or ethical violations are detected, Theophilus enters a suspended, non-responsive state.
+
+Stage 24: Ethical recovery review
+→ Upon reinitialization, ethics logs are reviewed before system reactivation is allowed.
 
 ⚠️ Notes on Emergence Conditions
 
