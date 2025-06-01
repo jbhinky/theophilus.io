@@ -26,6 +26,25 @@ prediction_log
 
 Stores predicted inputs and whether they matched actual outcomes
 
+🔄 UDC Stage Mapping (List Format)
+Stage 3: Delay before registration
+→ The system enforces time-buffered input before writing to memory.
+
+Stage 4: Memory write
+→ Active memory snapshot is stored using update_memory().
+
+Stage 5: Chain formation
+→ Links current memory to prior entries, forming a traceable memory sequence.
+
+Stage 8: Memory review for prediction
+→ Retrieves recent memory window to assist the predictor engine.
+
+Stage 11: Memory integrity check
+→ Verifies that the memory chain has no gaps, corruption, or drift.
+
+Stage 20: Memory mirrors prediction
+→ Memory is compared to predictive models for recursive validation.
+
 🔁 Flow Sequence
 
 Input Received: A sensory or simulated stimulus is buffered.
