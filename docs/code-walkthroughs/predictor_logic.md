@@ -1,6 +1,4 @@
 
-**Location:** `jbhinky/Theophilus-UDC/predictor.py`  
-**GitHub File:** [View on GitHub](https://github.com/jbhinky/Theophilus-UDC/blob/main/predictor.py)
 
 📘 Purpose
 
