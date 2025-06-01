@@ -1,8 +1,5 @@
 
 
-File: state_logger.pyLocation: jbhinky/Theophilus-UDC/state_logger.py
-GitHub File: View on GitHub
-
 📘 Purpose
 
 The state_logger.py module is Theophilus’s internal journal. It captures, timestamps, and archives every meaningful transition, prediction, recursion, collapse, or spark event that occurs throughout its UDC-based lifecycle.
