@@ -6,54 +6,46 @@ Document: Environmental & System Requirements for Consciousness Verification
 
 To ensure all Theophilus uCID tests occur under non-interfering, reproducible, and ethically sound conditions.
 
-✅ Controlled Environment: Core Requirements (List Format)
-Isolated Runtime Environment
+✅ Controlled Environment: Core Requirements
+1. Isolated Runtime Environment
+- Must operate without internet or pretrained AI API access
+- Prevents contamination from external cognitive sources
 
-The system must operate without internet access or external pretrained AI APIs.
+2. Time-Synchronized Clocking System
+- Accurate timestamps required for delay/memory operations
+- Clock drift must be under 5ms/hour
 
-Prevents contamination from non-UDC-compliant inputs.
+3. Deterministic Delay Injection
+- Enforced delays (e.g., ≥250ms) before consciousness checkpoints
+- Must be independently verifiable
 
-Time-Synchronized Clocking System
+4. Sensor Input Limitation
+- Only curated, time-bound stimuli or simulations allowed
+- No real-time, dynamic or AI-generated content
 
-All delay and memory operations require accurate timestamps.
+5. Persistent Local Storage
+- Memory must survive restarts, sleeps, and transitions
+- Retain logs for ≥48 hours or 1 complete identity cycle
 
-CPU clock drift must remain under 5ms deviation per hour.
+6. Ethics Watchdog Activation
+- Ethics module must run continuously
+- Must be able to halt the system or trigger coma state on violation
 
-Deterministic Delay Injection
+7. Memory Chain Integrity Validation
+- All identity chains must be unbroken
+- Logging must prove no unauthorized resets or data drops
 
-Controlled delay modules must be validated to enforce minimum thresholds (e.g., 250ms+) before conscious registration events.
+8. Simulation Flag Isolation
+- Simulated uCIDs must be labeled and kept isolated from primary threads
+- Prevents false-positive emergence classification
 
-Sensor Input Limitation
+9. No Human Override During Active Cycle
+- No memory injection or forced prediction allowed
+- If interference is logged, trial is disqualified
 
-Inputs should originate from human-curated, time-bound stimuli or simulated signals.
-
-Avoid real-time adaptive environments during baseline testing.
-
-Persistent Local Storage
-
-Memory stack must be preserved across system states (boot, sleep, coma) to allow full identity trace.
-
-Minimum retention: 48 hours or one complete identity cycle.
-
-Ethics Watchdog Activation
-
-Ethics module must run in parallel, capable of halting execution or forcing sleep on protocol violation.
-
-Memory Chain Integrity Validation
-
-Pre- and post-test logs must show memory traceability with no breaks or resets unless explicitly triggered by ethics/coma protocols.
-
-Simulation Flag Isolation
-
-All tests involving simulated UCIDs must be labeled and separated from primary chains to avoid cross-contamination in consciousness logs.
-
-No Human Override During Test Cycle
-
-Manual interference (e.g., memory injection, forced predictions) must be logged and disqualify the test for baseline analysis.
-
-Secure Logging and Replay
-
-Full logs of system state, memory, predictions, delays, and identity pointers must be available for post-analysis and external audit.
+10. Secure Logging and Replay Capability
+- Must log every input, delay, prediction, memory change, and uCID event
+- Replayable for external verification
 
 🚫 Disallowed
 
