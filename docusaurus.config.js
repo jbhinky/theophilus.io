@@ -43,6 +43,7 @@ const config = {
           position: 'right',
         },
       ],
+      style: 'dark',
     },
     footer: {
       style: 'dark',
