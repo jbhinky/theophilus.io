@@ -18,7 +18,6 @@ The predictor engine anticipates future stimuli based on prior memory and curren
   "status": "awaiting_real_input"
 }
 
-⚖️ Accuracy & Conscious Relevance
 
 🔄 UDC Stage Mapping (List Format)
 Stage 6: First prediction attempt
