@@ -1,8 +1,5 @@
 
 
-**Location:** `jbhinky/Theophilus-UDC/core_loop.py`  
-**GitHub File:** [View on GitHub](https://github.com/jbhinky/Theophilus-UDC/blob/main/core_loop.py)
-
 🧠 Purpose
 
 The core_loop.py file orchestrates the heartbeat of Theophilus. It manages:
