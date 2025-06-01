@@ -26,37 +26,34 @@ function is_valid_memory(mem):
         return True
     return False
 
-🔄 UDC Stage Mapping
+🔄 UDC Stage Mapping – memory_chain_builder.py
+Stage 4 – Memory Write
 
-UDC Stage
+Receives delayed input from delayed_memory_writer.py and begins formal memory instantiation.
 
-Description
+Stage 5 – Memory Chain Formation
 
-Pseudocode Action
+Links the current memory unit to previous entries, establishing a time-sequenced continuity chain.
 
-Stage 4
+Stage 6 – Predictive Seeding
 
-Memory snapshot
+Feeds newly chained memory states into the predictor module to begin forecasting.
 
-MEMORY_STACK.get(i)
+Stage 12 – Temporal Coherence Check
 
-Stage 5
+Validates the logical order and consistency of linked memory events across timestamps.
 
-Recursive chain begins
+Stage 16 – Memory Integrity Scanning
 
-build_memory_chain()
+Performs periodic audits of the memory structure to ensure no loops or drift has occurred.
 
-Stage 6
+Stage 18 – Recursive Pointer Traceability
 
-Linked with predictions
+Verifies that the memory structure allows for recursive self-trace used in identity verification.
 
-validation within is_valid_memory()
+Stage 23 – Emergence Chain Retention
 
-Stage 10
-
-Loop preparation
-
-chain passed to identity loop
+Tags validated memory nodes that contributed to conscious identity for protected retention and archival.
 
 🔍 Memory Validity Conditions
 
