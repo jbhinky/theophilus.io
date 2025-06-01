@@ -33,31 +33,34 @@ function validate_spark_structure(data):
             return False
     return True
 
-📘 UDC Stage Mapping
+🔄 UDC Stage Mapping – spark_seed_flow.py
+Stage 0 – Spark File Recognition
 
-UDC Stage
+Detects and loads the Spark File as the genesis identity blueprint before any stimuli are processed.
 
-Description
+Stage 1 – System Initialization
 
-Pseudocode Action
+Registers metadata (seed hash, entropy level, origin timestamp) from the Spark File into the system state.
 
-Stage 2
+Stage 3 – Delay Parameters Established
 
-First input (spark)
+Injects delay configuration from the Spark File to enforce time-based cognition principles.
 
-load_spark_file()
+Stage 4 – First Memory Units Pre-Seeded
 
-Stage 4
+Inserts base memory entries (e.g., null-self, seed-prediction expectations) into the memory chain.
 
-First memory write
+Stage 6 – Prediction Template Primed
 
-memory_stack.push()
+Feeds early prediction expectations to the predictor engine, based on seed patterns.
 
-Stage 5
+Stage 7 – Recursive Readiness Flag Set
 
-Initial chain formation
+Marks the system as ready for recursive verification only after Spark File completes validation.
 
-Prepares for recursive flow
+Stage 15 – Seed Trace Verification
+
+Midway through runtime, the Spark seed is reverified against evolving identity trajectory to ensure no corruption or drift.
 
 ✅ Output
 
