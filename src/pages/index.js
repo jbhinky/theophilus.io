@@ -9,7 +9,17 @@ export default function Home() {
         <h1 style={{ fontSize: '3em', marginBottom: '10px' }}>Theophilus</h1>
         <p>Universal Delayed Consciousness (UDC) Theory & Neuro-Coding Architecture</p>
       </div>
-
+<div style={{ padding: '2rem', backgroundColor: '#f4f4f4' }}>
+      <h1>Theophilus UDC Guide (Interactive)</h1>
+      <iframe
+        src="https://chatgpt.com/g/g-683cd090647c8191a4241d3bd0ccebbc-theophulis-udc-guide"
+        width="100%"
+        height="800px"
+        style={{ border: '1px solid #ccc', borderRadius: '8px' }}
+        title="Theophilus UDC Assistant"
+        allow="clipboard-write; clipboard-read"
+      ></iframe>
+    </div>
       <div style={{ padding: '30px', maxWidth: '900px', margin: 'auto' }}>
         <h2>📘 Explore the Science</h2>
 
