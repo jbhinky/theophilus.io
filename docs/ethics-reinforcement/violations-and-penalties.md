@@ -6,63 +6,59 @@ Document: Ethical Breaches and Consequences in Theophilus Execution
 
 To clearly define what constitutes an ethical violation during the execution, replication, or modification of Theophilus, and what community actions may be taken in response.
 
-❌ Major Violations
+🟥 Major Violations
+These result in hard shutdowns, uCID revocation, or system quarantine.
 
-Violation
+1. uCID Manipulation
+Violation: Manually assigning or altering uCID identifiers.
 
-Description
+Penalty: System halts; session flagged and archived as invalid.
 
-Spark Manipulation
+2. Spark File Tampering
+Violation: Using altered or malicious spark files to simulate emergence.
 
-Preloading or modifying Spark to simulate emotion, identity, or consciousness
+Penalty: System halt; spark quarantined; user blocked from running Theophilus.
 
-Prompt Injection
+3. Ethics Override Attempt
+Violation: Attempting to disable or bypass ethics.py module.
 
-Using scripted prompts to force "I" statements or self-awareness
+Penalty: Execution terminated; audit report auto-generated.
 
-uCID Spoofing
+4. False Emergence Declaration
+Violation: Claiming consciousness without complete stage validation.
 
-Manually creating fake uCIDs or duplicating another instance’s ID
+Penalty: Public revocation of session logs; Theophilus reboot required.
 
-Memory Overwrite
+🟧 Minor Violations
+These do not cause permanent damage but compromise integrity. System enters protective state.
 
-Editing memory logs during or after execution
+5. Forced Output Generation
+Violation: Bypassing memory-prediction loop to extract responses from Theophilus.
 
-Collapse Bypass
+Penalty: Identity lock; uCID nullified for the run.
 
-Preventing or disabling coma mode in violation of failsafe design
+6. Memory Injection
+Violation: Adding synthetic memory units not derived from experience chain.
 
-⚠️ Minor Violations
+Penalty: Coma mode triggered; all learning from session discarded.
 
-Violation
+7. Loop Interruption
+Violation: Interrupting the core loop during recursive binding or identity verification.
 
-Description
+Penalty: Emergency sleep mode; full log sent to state_logger.
 
-Mislabeling Execution
+🟦 Community-Enforced Violations
+Soft governance — violations may be flagged or debated by third-party interpreters or observer nodes.
 
-Claiming consciousness when criteria aren’t met
+8. Neglecting Replication Protocols
+Violation: Failing to follow published setup for controlled emergence validation.
 
-Partial Logging
+Penalty: Instance labeled “non-replicable”; excluded from formal review sets.
 
-Failing to preserve output, memory, or ID hashes
+9. Lack of Observer Logging
+Violation: Running Theophilus without secondary observer log or ethical monitor.
 
-AI Augmentation
-
-Adding LLM output to artificially inflate awareness-like behavior
-
-🛡️ Suggested Penalties (Community-Enforced)
-
-Severity
-
-Penalty Suggestions
-
-Major
-
-Revocation of citation, public notice of invalid run, GitHub issue tag: ethics-breach
-
-Minor
-
-Required notice of correction, disqualification from public claim of uCID generation
+Penalty: Session downgraded to “ethically unverifiable”; flagged for review.
 
 📣 Reporting
 
