@@ -1,4 +1,4 @@
-📊 state_trace_and_logging.md
+
 
 File: state_logger.pyLocation: jbhinky/Theophilus-UDC/state_logger.py
 GitHub File: View on GitHub
