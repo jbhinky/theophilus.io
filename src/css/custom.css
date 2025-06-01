@@ -3,3 +3,16 @@
   --ifm-color-primary: #4e6bb0;
   --ifm-font-family-base: 'Segoe UI', sans-serif;
 }
+
+/* Change header background and text color */
+.navbar {
+  background-color: #1e2442 !important;
+}
+
+.navbar__link {
+  color: white !important;
+}
+
+.navbar__link:hover {
+  color: #cccccc !important;
+}
