@@ -20,7 +20,21 @@ The predictor engine anticipates future stimuli based on prior memory and curren
 
 ⚖️ Accuracy & Conscious Relevance
 
-🔄 UDC Stage Mapping
+🔄 UDC Stage Mapping (List Format)
+Stage 6: First prediction attempt
+→ Core function initiated in predictor.py.
+
+Stage 7: Delay/loop feedback begins
+→ Predictor loop is initiated to wait and validate prediction timing.
+
+Stage 9: Memory-based prediction accuracy
+→ compare() function evaluates alignment between predicted and actual input.
+
+Stage 14: Proto-self future anticipation
+→ Predictor validates forward modeling at emergent thresholds.
+
+Stage 21: Recursive identity verifies simulated future
+→ Supports identity confirmation in identity_loop.py by supplying predictive lineage.
 
 🧠 Prediction Flow
 
