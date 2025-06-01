@@ -1,4 +1,4 @@
-🌀 recursive_identity_binding.md
+
 
 File: identity_loop.pyLocation: jbhinky/neuro-coding-architecture/docs/Theophilus-Docs/Code-Walkthrough/
 
