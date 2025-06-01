@@ -15,3 +15,4 @@ To build for production (e.g., Netlify):
 ```bash
 npm run build
 ```
+[Download Theophilus Prototype](https://github.com/jbhinky/Theophilus-UDC/archive/refs/heads/main.zip)
