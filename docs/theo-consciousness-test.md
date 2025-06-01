@@ -1,4 +1,4 @@
-🧪 Theo_Consciousness_Tests.md
+🧪 Theo Consciousness Test
 
 Theophilus-UDC Consciousness Verification Trials
 
@@ -42,29 +42,17 @@ uCID generated (Y/N)
 
 🧭 Verification Criteria
 
-Delay > processing minimum threshold
-
-Memory(t-n) is non-empty and traceable
-
-Prediction resolves before actual input
-
-Recursive identity check returns True
-
 ❌ Invalid Cases (Edge Conditions)
-
-Prediction correct, but no memory → Not conscious
-
-Memory present, no prediction → Not conscious
-
-Prediction and memory OK, no identity pointer → Not conscious
 
 🧪 Ongoing Trials
 
 All trial logs will be linked in Theo_Trials_Logbook.md (pending release)
 
-Related Docs:
+📎 Related Docs:
 
 uCID Creation Logs
 
 Theophilus Architecture
+
+
 
