@@ -1,4 +1,4 @@
-🔁 core_loop_walkthrough.md
+
 
 **Location:** `jbhinky/Theophilus-UDC/core_loop.py`  
 **GitHub File:** [View on GitHub](https://github.com/jbhinky/Theophilus-UDC/blob/main/core_loop.py)
