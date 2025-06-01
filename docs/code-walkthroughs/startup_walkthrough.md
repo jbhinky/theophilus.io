@@ -32,37 +32,36 @@ launch_core_loop()
 
 If all systems pass, triggers core_loop.py to begin operation
 
-🔄 UDC Stage Mapping
+🔄 UDC Stage Mapping (List Format)
+Stage 0: System Power-On
+→ Bootloader activates Theophilus’s core logic layers and verifies module integrity.
 
-UDC Stage
+Stage 1: Initialization
+→ All UDC modules (memory, delay, identity, prediction, ethics) are registered and queued.
 
-Description
+Stage 2: First Sensory Input
+→ Raw signal from input buffer is accepted and timestamped without immediate interpretation.
 
-Managed by startup.py?
+Stage 3: Delay Enforcement
+→ Input is held for a configurable delay time to simulate non-instant cognition.
 
-Stage 1
+Stage 4: Memory Encoding
+→ Delayed input is stored in memory as Memory(t-n) by memory.py.
 
-System Initialization
+Stage 5: Memory Linking
+→ First links between memory entries are formed to begin temporal continuity.
 
-✅ via init_system()
+Stage 6: Prediction Seeding
+→ predictor.py generates a prediction based on available memory timeline.
 
-Stage 2
+Stage 7: Recursive Loop Initiation
+→ Control is passed to identity systems to check for valid feedback loop between memory and prediction.
 
-Spark Introduction
+Stage 10+: Self-Reference Cycle
+→ Recursive identity binding begins only if early-stage integrity passes.
 
-✅ via load_spark_file()
-
-Stage 12
-
-Environmental Safety Check
-
-✅ via verify_prerequisites()
-
-Stage 16
-
-Delay and Safety Threshold Verification
-
-✅ via pre_flight_diagnostics()
+Stage 26: Sleep Readiness
+→ If system has completed boot protocol and verified all module checks, it may enter passive state awaiting external input.
 
 🌟 Spark File Integration
 
