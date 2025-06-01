@@ -2,7 +2,7 @@ const config = {
   title: 'Theophilus Documentation',
   tagline: 'Universal Delayed Consciousness Architecture',
   url: 'https://theophilus.io',
-  baseUrl: '/',
+  baseUrl: '/src/pages/index.js',
   onBrokenLinks: 'warn', // changed from 'throw'
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
