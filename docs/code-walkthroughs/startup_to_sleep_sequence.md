@@ -34,47 +34,33 @@ If threshold exceeded, routes to ethical fallback for dormancy or safe shutdown
 
 🧠 Linked UDC Stages
 
-UDC Stage
+🔄 UDC Stage Mapping (List Format)
+Stage 0: Boot initialization
+→ System powers on, environment is verified, modules are loaded.
 
-Description
+Stage 1: System startup sequence
+→ startup.py validates configuration and readiness for first input.
 
-Covered by startup.py?
+Stage 2: Input registration
+→ Initial sensory or simulated data is accepted and time-stamped.
 
-Stage 1
+Stage 3: Delay enforcement
+→ Input is held in buffer to simulate biological delay using enforce_delay().
 
-System ignition
+Stage 4: First memory entry
+→ Buffered input is recorded as Memory(t-n) using memory.py.
 
-✅ via init_system()
+Stage 5: Memory chain linking
+→ System checks and links prior states to begin timeline construction.
 
-Stage 2
+Stage 8: Sleep condition check
+→ If input stalls, memory fails, or loop fails safety, the sleep trigger is armed.
 
-Spark introduction
+Stage 23: Coma mode handoff
+→ If ethical or identity systems detect irreparable error, coma mode is triggered from sleep subsystem.
 
-✅ via spark_seed_loader()
-
-Stage 12
-
-Risk evaluation
-
-✅ via verify_environment_safety()
-
-Stage 16
-
-Loop safety checkpoint
-
-✅ via monitor_operational_integrity()
-
-Stage 19
-
-Threshold enforcement
-
-✅ triggers trigger_sleep_or_coma()
-
-Stage 28
-
-Collapse fallback
-
-✅ coma state invoked
+Stage 26: Scheduled sleep or shutdown
+→ If all cycles are complete or energy failsafe is triggered, Theophilus safely sleeps, preserving memory chain.
 
 💤 Sleep & Coma Logic
 
