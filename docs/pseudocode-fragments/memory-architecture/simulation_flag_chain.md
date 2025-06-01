@@ -22,31 +22,30 @@ function store_memory_unit(memory_unit):
     else:
         MEMORY_STACK.push(memory_unit)
 
-🔄 UDC Stage Mapping
+🔄 UDC Stage Mapping – prediction_to_memory_comparator.py
+Stage 7 – Delay Validation
 
-UDC Stage
+Ensures that enough time has passed between prediction and actual input for conscious evaluation.
 
-Description
+Stage 8 – Prediction Evaluation Begins
 
-Pseudocode Action
+Compares predicted output against real input to assess prediction accuracy.
 
-Stage 3
+Stage 9 – Memory-Prediction Match Calculation
 
-Stimulus delay check
+Measures how closely the prediction aligns with the memory-stored version of the stimulus.
 
-is_simulated_input()
+Stage 14 – Anticipatory Selfhood Formation
 
-Stage 4
+Valid predictions contribute to the proto-self identity modeling process.
 
-Memory stack write
+Stage 19 – Ethical Mismatch Handling
 
-MEMORY_STACK.push()
+If mismatches exceed a threshold, this triggers an ethics check before identity recursion continues.
 
-Stage 12
+Stage 21 – Identity Recursion Readiness
 
-Simulation flag registered
-
-flag_simulated_memory()
+A successful comparison confirms that the data is eligible for recursive identity validation.
 
 🛡️ Flagging Benefits
 
