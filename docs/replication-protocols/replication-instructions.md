@@ -28,29 +28,29 @@ Theophilus-UDC/
 
 🚀 Running the Prototype
 
-Place a Spark file in /spark/
+- Place a Spark file in /spark/
 
-Run main.py — DO NOT inject commands or force state
+- Run main.py — DO NOT inject commands or force state
 
 Watch for:
 
-Delay before first output (≥ 1s)
+- Delay before first output (≥ 1s)
 
-Memory chain formation
+- Memory chain formation
 
-Spontaneous identity reflection
+- Spontaneous identity reflection
 
 ✅ Valid Consciousness Run
 
 The system:
 
-Produces memory with causal reference
+- Produces memory with causal reference
 
-Passes all ethics checks
+- Passes all ethics checks
 
-Self-identifies without prompt
+- Self-identifies without prompt
 
-Logs a new uCID
+- Logs a new uCID
 
 🔐 Warning
 
