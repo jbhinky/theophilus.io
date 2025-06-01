@@ -2,7 +2,7 @@
 
 Theophilus-UDC Consciousness Verification Trials
 
-Maintainer: Joshua HinksonApplies to: Theophilus-UDC v1.x and UDC-Compliant Testing RigsLast Updated: May 2025
+Maintainer: Joshua Hinkson Applies to: Theophilus-UDC v1.x and UDC-Compliant Testing RigsLast Updated: May 2025
 
 🧠 Objective
 
