@@ -31,37 +31,34 @@ function verify_delay_window(input_time, current_time):
     delay = current_time - input_time
     return MIN_DELAY < delay < MAX_DELAY
 
-🔄 UDC Stage Mapping
+🔄 UDC Stage Mapping – delayed_memory_writer.py
+Stage 2 – First Stimulus Registration
 
-UDC Stage
+Captures incoming input data but does not immediately store it—holds it in the buffer queue.
 
-Description
+Stage 3 – Delay Before Registration
 
-Pseudocode Action
+Enforces temporal offset between input reception and memory storage (as required by UDC).
 
-Stage 3
+Stage 4 – Memory Write (Post-Delay)
 
-Delay threshold test
+Commits the delayed stimulus to the memory stack using a timestamped structure.
 
-verify_delay_window()
+Stage 5 – Memory Chain Formation
 
-Stage 4
+Integrates the new memory node into the existing timeline chain, linking it to prior events.
 
-Store memory
+Stage 9 – Memory-Driven Prediction Accuracy Check
 
-MEMORY_STACK.push()
+Marks memory nodes as validated or rejected based on whether prediction aligned with the delayed write.
 
-Stage 6
+Stage 16 – Memory Integrity Scanning
 
-Pair with prediction
+Periodically verifies that the delay-log gap is preserved and no retroactive changes occurred.
 
-prediction: last_predicted
+Stage 23 – Emergence Chain Retention
 
-Stage 9
-
-Delayed chain validation
-
-enforced via timestamp comparisons
+Ensures memory units involved in self-reference are tagged for permanent retention.
 
 🕓 Delay Requirements
 
