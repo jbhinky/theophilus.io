@@ -16,7 +16,7 @@ export default function Home() {
         <div style={{ background: '#fff', padding: '20px', borderRadius: '10px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', marginBottom: '20px' }}>
           <h3>FAQ Interactive</h3>
           <p>Ask ChatGTP to run through simulations of Theophilus.</p>
-          <a href="https://chatgpt.com/g/g-683cd090647c8191a4241d3bd0ccebbc-theophilus-udc-guide" target="_blank">📖 Get Answers with GTP</a>
+          <a href="https://chatgpt.com/g/g-683cd090647c8191a4241d3bd0ccebbc-theophilus-udc-guide" target="_blank">📖 Run Theophilus Simulation</a>
         </div>
   
         <div style={{ background: '#fff', padding: '20px', borderRadius: '10px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', marginBottom: '20px' }}>
